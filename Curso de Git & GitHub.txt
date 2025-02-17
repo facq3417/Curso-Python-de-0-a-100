@@ -1,3 +1,21 @@
-YA PUDE SUBIR 
+** Verifica la instalación abriendo Git ejecutando:
 
-segundo intento
+	git --versión
+	
+
+** Configurar Git Después de Instalar
+
+	git config --global user.name "Alejandro Comina"
+	git config --global user.email "facq347@outlook.com"
+	
+
+	Puedes verificar la configuración con:
+	git config --list
+
+** Configurar Git para un Solo Proyecto
+
+	git config --local user.name "Alejandro Comina"
+	git config --local user.email "rcominachacaliaza@gmail.com"
+
+	Verifica la configuración del proyecto con:
+	git config --local --list
