@@ -2,13 +2,11 @@
 
 	git --versión
 	
-
 ** Configurar Git Después de Instalar
 
 	git config --global user.name "Alejandro Comina"
 	git config --global user.email "facq347@outlook.com"
 	
-
 	Puedes verificar la configuración con:
 	git config --list
 
